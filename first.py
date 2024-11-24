@@ -21,7 +21,7 @@ application = Application.builder().token('7824250935:AAEDJ0gWhe1jsIhybpDA1cgY9I
 # Add a command handler for the '/start' command
 application.add_handler(CommandHandler('start', start))
 application.add_handler(CommandHandler('meme',meme))
-application.add_handler(CommandHandler('youtube video download',download))
+application.add_handler(CommandHandler('download',download))
 
 
 # Start polling for updates
