@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-def 
+
 
 # Define the command handler function
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -16,7 +16,7 @@ application = Application.builder().token('7824250935:AAEDJ0gWhe1jsIhybpDA1cgY9I
 
 # Add a command handler for the '/start' command
 application.add_handler(CommandHandler('start', start))
-application.add_handler(CommandHandler('show',meme))
+application.add_handler(CommandHandler('meme',meme))
 
 
 # Start polling for updates
