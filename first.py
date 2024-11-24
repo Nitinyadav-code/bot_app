@@ -83,7 +83,7 @@ async def forecast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text(f"An error occurred while fetching the forecast. {str(e)}")
 
 # Initialize the Application with the bot token
-application = Application.builder().token("YOUR_BOT_TOKEN").build()
+application = Application.builder().token("7824250935:AAEDJ0gWhe1jsIhybpDA1cgY9IWRUPjgmps").build()
 
 # Add command handlers
 application.add_handler(CommandHandler("start", start))
